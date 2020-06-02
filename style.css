@@ -1,0 +1,24 @@
+.navbar {
+    background-color: white;
+    color: black;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+article {
+    background-color: white;
+    border-style: solid;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.navbar-brand {
+    color: white;
+    background-color: teal;
+}
+
+img {
+    padding-right: 10px;
+}
