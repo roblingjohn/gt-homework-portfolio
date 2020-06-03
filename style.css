@@ -1,10 +1,6 @@
-.navbar {
-    background-color: white;
-    color: black;
-}
-
 body {
     background-color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 article {
@@ -14,11 +10,80 @@ article {
     margin-top: 20px;
 }
 
+h1 {
+    color: teal
+}
+
+.navbar {
+    background-color: white;
+    color: black;
+}
+
 .navbar-brand {
     color: white;
     background-color: teal;
+    margin-left: 50px;
 }
 
-img {
-    padding-right: 10px;
+.main-square {
+    margin-left: 5px;
+    margin-right: 5px
+}
+
+.main-img {
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article-img {
+    padding: 5px;
+    margin-right: 10px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1px;
+}
+
+.contact-box {
+    background-color: white;
+    border-style: solid;
+    padding: 10px;
+    margin-top: 20px;
+    width: 450px
+}
+
+/* stlying for contact  */
+/* based on https://www.w3schools.com/howto/howto_css_contact_form.asp  */
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contact {
+  border-radius: 5px;
+  padding: 20px;
 }
