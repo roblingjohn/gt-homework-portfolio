@@ -49,6 +49,13 @@ footer {
     
 }
 
+.main-img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 /* image styling  */
 .main-img {
     border-style: solid;
