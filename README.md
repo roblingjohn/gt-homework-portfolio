@@ -11,7 +11,7 @@ This site contains information about John Robling, including a brief biography a
 
 ## Usage
 
-[Deployed Site](https://roblingjohn.github.io/gt-homework-0529/)
+[Deployed Site](https://roblingjohn.github.io/gt-homework-portfolio/)
 ![Home](/assets/images/home.png)
 
 ## Credits
