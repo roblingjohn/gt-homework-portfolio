@@ -1,8 +1,10 @@
+/* general body styling  */
 body {
     background-color: blanchedalmond;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
+/* general object styling  */
 article {
     background-color: white;
     border-style: solid;
@@ -26,6 +28,7 @@ footer {
     margin-bottom: 0px;
 }
 
+/* navbar styling  */
 .navbar {
     background-color: white;
     color: black;
@@ -38,12 +41,14 @@ footer {
     padding: 5px;
 }
 
+/* main page styling  */
 .main-square {
     margin-left: 5px;
     margin-right: 5px;
     
 }
 
+/* image styling  */
 .main-img {
     border-style: solid;
     border-color: lightgray;
@@ -61,6 +66,7 @@ footer {
     border-style: solid;
     border-color: lightgray;
     border-width: 1px;
+    width: 350px;
 }
 
 .portfolio-img {
@@ -77,6 +83,7 @@ footer {
     height: 350px;
 }
 
+/* box and container styling  */
 .contact-box {
     background-color: white;
     border-style: solid;
@@ -85,13 +92,17 @@ footer {
     width: 450px
 }
 
+.portfolio-container {
+    max-width: 780px;
+}
+
 .portfolio-box {
     margin-right: 5px;
     margin-left: 5px;
     margin-bottom: auto;
 }
 
-/* stlying for contact  */
+/* stlying for contact box */
 /* based on https://www.w3schools.com/howto/howto_css_contact_form.asp  */
 * {box-sizing: border-box;}
 
@@ -122,3 +133,4 @@ input[type=submit]:hover {
 .contact {
   border-radius: 5px;
 }
+
