@@ -1,7 +1,8 @@
 /* general body styling  */
 body {
     background-color: blanchedalmond;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("../images/background.png");
 }
 
 /* general object styling  */
