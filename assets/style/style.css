@@ -1,7 +1,7 @@
 /* general body styling  */
 body {
-    background-color: lightgray;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #F8DCB6;
+    font-family: Arial, Helvetica, sans-serif;
     background-image: url("../images/background.png");
 }
 
@@ -23,7 +23,7 @@ section {
 }
 
 h1 {
-    color: teal
+    text-align: center;
 }
 
 footer {
@@ -32,21 +32,23 @@ footer {
 }
 
 a {
-    color: lightseagreen;
+    color: #F57689;
 }
 
 /* navbar styling  */
 .navbar {
-    background-color: white;
+    background-color: skyblue;
     color: black;
 }
 
 .navbar-brand {
     color: white;
-    background-color: teal;
+    background-color: #4E40E0;
     margin-left: 50px;
     padding: 5px;
     border-radius: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 /* main page styling  */
@@ -87,7 +89,7 @@ a {
     border-color: lightgray;
     border-width: 1px;
     border-radius: 5px;
-    width: 350px;
+    width: 250px;
 }
 
 .portfolio-img {
@@ -120,6 +122,7 @@ a {
     max-width: 780px;
     padding-bottom: 3px;
     padding-top: 3px;
+    background-color: white;
 }
 
 .portfolio-box {
@@ -130,6 +133,7 @@ a {
     border-radius: 5px;
     padding-top: 15px;
     padding-bottom: 15px;
+    background-color: #E5E8F5;
 }
 
 .portfolio-header{
@@ -137,32 +141,6 @@ a {
 }
 
 /* stlying for contact box */
-/* based on https://www.w3schools.com/howto/howto_css_contact_form.asp  */
-* {box-sizing: border-box;}
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
 
 .contact {
   border-radius: 5px;
