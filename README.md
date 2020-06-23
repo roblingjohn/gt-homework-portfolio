@@ -2,7 +2,7 @@
 
 ## Description
 
-This site contains information about John Robling, including a brief biography and several images of him.
+This site contains John Robling's project portfolio and contact information.
 
 ## Installation
     
@@ -16,6 +16,6 @@ This site contains information about John Robling, including a brief biography a
 
 ## Credits
 
-This site was designed for the class and refactored by John Robling.
+This site was designed by John Robling.
 
 Some styling was based on templates from https://www.w3schools.com/ and https://getbootstrap.com/.
